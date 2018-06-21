@@ -1,0 +1,115 @@
+{
+  "platinum": [
+    {
+      "name": "Platinum Sponsor 1",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }
+  ],
+  "gold": [
+    {
+      "name": "Gold Sponsor 1",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Gold Sponsor 2",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Gold Sponsor 3",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Gold Sponsor 4",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Gold Sponsor 5",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }
+  ],
+  "silver": [
+    {
+      "name": "Silver Sponsor 1",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 2",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 3",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 4",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 5",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 6",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 7",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 8",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 9",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 10",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 11",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 12",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 13",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 14",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 15",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 16",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 17",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 18",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 19",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }, {
+      "name": "Silver Sponsor 20",
+      "link": "https://github.com/jugch/sponsorslides",
+      "logo": "demo-logo.svg"
+    }
+  ]
+}
