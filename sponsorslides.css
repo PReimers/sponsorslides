@@ -1,0 +1,57 @@
+.platinum, .gold {
+    display: none;
+}
+
+.silver {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+.silver > div {
+    margin: 40px;
+    vertical-align: middle;
+    animation-name: example;
+    animation-delay: 9999s;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+.silver > div:nth-child(1) {
+    animation-delay: 4s;
+}
+
+.silver > div:nth-child(2) {
+    animation-delay: 8s;
+}
+
+.silver > div:nth-child(3) {
+    animation-delay: 12s;
+}
+
+.silver > div:nth-child(4) {
+    animation-delay: 16s;
+}
+
+.silver > div:nth-child(5) {
+    animation-delay: 20s;
+}
+
+.silver > div:nth-child(6) {
+    animation-delay: 24s;
+}
+
+.silver > div:nth-child(7) {
+    animation-delay: 28s;
+}
+
+@keyframes example {
+    from {
+        margin: 40px;
+    }
+    to {
+        margin: 0;
+    }
+}
