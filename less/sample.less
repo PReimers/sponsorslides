@@ -6,26 +6,96 @@ html, body {
 
 
 .sponsors {
-
+  width: 100%;
+  height: 100%;
 
   > .silver {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
     figure {
-      width: 15%;
-      height: 10%;
-      display: inline-block;
+      width: 100%;
+      height: 100%;
+      display: block;
       overflow: visible;
+      transition: all 2s;
+      position: absolute;
+
+      left: 0;
+      top: 0;
+      .debug();
+      transform-origin: 0% 0%;
+
       > img {
         width: 95%;
-        height: 95%;
-        transform: translateX(0) translateY(0) scale(1);
-        transform-origin: 50% 50%;
-        transition: all  2s;
-        &:hover {
+        //height: 95%;
+        position: absolute;
+        top:20%;
 
-          transform: translateX(0) translateY(200px) scale(4);
-        }
+      }
+
+      &:hover {
+
+        transform: translateX(0) translateY(0) scale(1);
+        //
       }
     }
 
   }
+
+  .generate-columns(4);
 }
+
+
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+  figure:nth-child(@{i}) {
+    @animName: ~"central-silver-@{i}";
+    transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+
+    animation: @animName  5s infinite;
+    animation-delay: 1s*@i;
+    animation-direction: reverse;
+  }
+  .generate-columns(@n, (@i + 1));
+}
+
+
+.generate-anim(@n, @i: 1) when (@i =< @n) {
+
+
+    0% {
+      transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+    }
+    90% {
+      transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+    }
+    100% {
+      transform: translateX(0) translateY(0) scale(1);
+    }
+
+
+}
+
+@keyframes central-silver-1 {
+  .generate-anim(4,1);
+}
+
+@keyframes central-silver-2 {
+  .generate-anim(4,2);
+}
+
+@keyframes central-silver-3 {
+  .generate-anim(4,3);
+}
+
+@keyframes central-silver-4 {
+  .generate-anim(4,4);
+}
+
+
+
+.debug() {
+  //outline: 1px solid black;
+}
+
