@@ -11,16 +11,19 @@ html, body {
 
   > .silver {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
 
     figure {
       width: 100%;
       height: 100%;
-      display: block;
+      display: inline-block;
       overflow: visible;
       transition: all 2s;
       position: absolute;
+      background: rgba(255,255,255,0.9);
 
       left: 0;
       top: 0;
@@ -28,18 +31,14 @@ html, body {
       transform-origin: 0% 0%;
 
       > img {
-        width: 95%;
-        //height: 95%;
-        position: absolute;
-        top:20%;
+        width: 85%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
 
       }
 
-      &:hover {
-
-        transform: translateX(0) translateY(0) scale(1);
-        //
-      }
     }
 
   }
@@ -53,9 +52,9 @@ html, body {
     @animName: ~"central-silver-@{i}";
     transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
 
-    animation: @animName  5s infinite;
-    animation-delay: 1s*@i;
-    animation-direction: reverse;
+    animation: @animName  10s infinite;
+    animation-delay: 2s*@i;
+    animation-direction: alternate;
   }
   .generate-columns(@n, (@i + 1));
 }
@@ -63,15 +62,22 @@ html, body {
 
 .generate-anim(@n, @i: 1) when (@i =< @n) {
 
-
     0% {
       transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+      z-index: 0;
+    }
+
+    80% {
+      transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+      z-index: 0;
     }
     90% {
       transform: translateX((@i - 1) * 100% / @n) translateY(0) scale(0.25);
+      z-index: 10;
     }
     100% {
       transform: translateX(0) translateY(0) scale(1);
+      z-index: 10;
     }
 
 
